@@ -1,0 +1,13 @@
+Quick application to dump DRM the resource data
+===============================================
+
+Prerequisites:
+
+sudo apt install libdrm-dev
+
+
+
+Build using 
+
+cc  -I/usr/include/libdrm drm_info.c -o drm_info -ldrm
+
